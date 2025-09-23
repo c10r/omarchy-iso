@@ -14,12 +14,18 @@ Run `./bin/omarchy-iso-make` and the output goes into `./release`.
 
 You can customize the repositories used during the build process by passing in variables:
 
+- OMARCHY_
 - `OMARCHY_INSTALLER_REPO` - GitHub repository for the installer (default: `basecamp/omarchy`)
 - `OMARCHY_INSTALLER_REF` - Git ref (branch/tag) for the installer (default: `master`)
 
 Example usage:
 ```bash
 OMARCHY_INSTALLER_REPO="myuser/omarchy-fork" OMARCHY_INSTALLER_REF="some-feature" ./bin/omarchy-iso-make
+```
+
+Alternatively, you can create a .iso with local code instead of pulling down a Github repository:
+```bash
+./bin/omarchy-iso-make --local-omarchy path/to/your/local/clone
 ```
 
 ## Testing the ISO
