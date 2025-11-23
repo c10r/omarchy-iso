@@ -1,3 +1,7 @@
+# NOT NEEDED
+
+As of November 23, 2025 This repo is no longer necessary because omarchy-iso now natively supports the `--local-source` flag.
+
 # Omarchy ISO
 
 The Omarchy ISO streamlines [the installation of Omarchy](https://learn.omacom.io/2/the-omarchy-manual/50/getting-started). It includes the Omarchy Configurator as a front-end to archinstall and automatically launches the [Omarchy Installer](https://github.com/basecamp/omarchy) after base arch has been setup.
